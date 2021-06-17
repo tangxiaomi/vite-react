@@ -2,18 +2,13 @@ import React, { useState, useEffect } from "react";
 import { Layout, Menu } from 'antd';
 import { UploadOutlined, UserOutlined, VideoCameraOutlined } from '@ant-design/icons';
 import 'antd/dist/antd.css';
-import './app.scss';
+import './App.scss';
+// import './'
 
 const { Header, Content, Footer, Sider } = Layout;
 
 function App() {
-  const [state, setState] = useState({ collapsed: false, });
-
-  const toggle = () => {
-    setState({
-      collapsed: !state.collapsed,
-    });
-  };
+  // const [state, setState] = useState({ collapsed: false, });
 
   return (
     <Layout>
