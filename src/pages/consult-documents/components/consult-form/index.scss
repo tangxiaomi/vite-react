@@ -1,0 +1,30 @@
+.sub-title{
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  &::after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background-color: #ccc;
+    bottom: -8px;
+    left: 0;
+  }
+}
+
+label{
+  background-color: #ccc;
+  border: 1px solid #D5D4DC;
+  font-weight: 500;
+  height: 36px;
+  border-right: none;
+  padding: 0 8px;
+}
+
+.form-content{
+  flex: 1;
+}
